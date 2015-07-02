@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Urls from Tabs",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Get group-selected tabs' url",
+    "description": "The description of the application"
+  }
+}

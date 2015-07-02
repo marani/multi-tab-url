@@ -1,0 +1,111 @@
+body{
+  min-width: 300px;
+  font-size: 14px;
+  background: #eee;
+  margin: 0px;
+}
+
+.tab-btn-bar {
+  /*margin-top: 14px;*/
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.tab-btn {
+  cursor: pointer;
+  margin-left: 1px;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #f5f5f5;
+  color: #696969;
+  /*border-radius: 2px 0px 0px 2px;*/
+  border-radius: 5px 5px 0px 0px;
+}
+.tab-btn:first-child {
+  margin-left: 0;
+}
+.tab-btn:hover {
+  background: #fafafa;
+}
+.tab-btn-active,
+.tab-btn-active:hover {
+  background: white;
+}
+
+.tab-content {
+  background: white;
+  overflow: hidden;
+  display: none;
+}
+
+.tab-content-active {
+  display: block;
+}
+
+.tab-head {
+  text-align: center;
+  margin-bottom: 7px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#tabGet .tab-head {
+  color: #17F100;
+}
+#tabGet #tablist {
+  margin-left: 14px;
+  font-size: 12px;
+}
+
+#tabOpen .tab-head {
+  color: #696969;
+}
+#tabOpen #tabInput {
+  margin: 7px;
+  margin-bottom: 5px;
+  outline: none;
+  border-color: #ccc;
+  border-radius: 2px;
+  resize: vertical;
+  width: 450px;
+  height: 50px;
+  font-size: 12px;
+}
+#tabOpen #tabInput:focus {
+  border-color: #696969;
+}
+#tabOpen #tabFoundList {
+  width: 450px;
+  padding-left: 7px;
+}
+#tabOpen #tabFoundList .link {
+  font-size: 12px;
+  white-space: nowrap;
+  padding-left: 2px;
+  cursor: pointer;
+}
+#tabOpen #tabFoundList .link:hover {
+  background: #eee;
+}
+#tabOpen .tab-foot {
+  text-align: center;
+}
+#tabOpen .tab-foot .btn-open {
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px 5px 10px;
+  /*border: none;*/
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #696969;
+  border: 1px solid #ccc;
+  background: transparent;
+}
+#tabOpen .tab-foot .btn-open:hover {
+  background: #eee;
+}
+#tabOpen .tab-foot .btn-open:active {
+  background: #ddd;
+}
